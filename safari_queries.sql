@@ -22,7 +22,14 @@ ON enclosures.id = animals.enclosureid
 ORDER BY animals.age DESC, animals.name LIMIT 1;
 
 --The number of different animal types a given keeper has been assigned to work with.
-
+SELECT COUNT( DISTINCT animals.type) FROM animals
+INNER JOIN enclosures
+ON animals.enclosureId = enclosures.id
+INNER JOIN assignments
+ON enclosures.id = assignments.enclosureId
+INNER JOIN employees
+ON employees.id = assignments.employeeId
+WHERE employees.id = 15;
 
 --The number of different keepers who have been assigned to work in a given enclosure
 

@@ -45,6 +45,8 @@ INSERT INTO employees (name, employeeNumber) VALUES ('Pilot V5', 1112);
 INSERT INTO employees (name, employeeNumber) VALUES ('Sharpie Gel', 2414);
 INSERT INTO employees (name, employeeNumber) VALUES ('Rene Descartes', 0001);
 INSERT INTO employees (name, employeeNumber) VALUES ('Socrates', 0021);
+INSERT INTO employees (name, employeeNumber) VALUES ('Jack', 0913);
+INSERT INTO employees (name, employeeNumber) VALUES ('Jill', 3815);
 
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('big cat field', 20, FALSE);
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('elephant hang out spot', 100, TRUE);
@@ -179,3 +181,12 @@ INSERT INTO assignments (employeeId, enclosureId, day) VALUES (14, 3, 'Thursday'
 INSERT INTO assignments (employeeId, enclosureId, day) VALUES (14, 4, 'Friday');
 INSERT INTO assignments (employeeId, enclosureId, day) VALUES (14, 5, 'Saturday');
 INSERT INTO assignments (employeeId, enclosureId, day) VALUES (14, 6, 'Sunday');
+
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (15, 1, 'Monday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (15, 3, 'Wednesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (15, 5, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (15, 6, 'Sunday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (16, 2, 'Tuesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (16, 4, 'Thursday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (16, 5, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (16, 6, 'Sunday');

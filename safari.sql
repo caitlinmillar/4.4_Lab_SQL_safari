@@ -30,3 +30,11 @@ CREATE TABLE assignments (
     enclosureId INT REFERENCES enclosures(id),
     employeeId INT REFERENCES employees(id)
 );
+
+INSERT INTO employees (name, employeeNumber) VALUES ('John Smith', 9832);
+INSERT INTO employees (name, employeeNumber) VALUES ('Mary Smith', 9234);
+INSERT INTO employees (name, employeeNumber) VALUES ('Alex Smith II', 9128);
+INSERT INTO employees (name, employeeNumber) VALUES ('Bav Bav', 2738);
+INSERT INTO employees (name, employeeNumber) VALUES ('Blue Millar', 3546);
+INSERT INTO employees (name, employeeNumber) VALUES ('Steve Irwin', 5623);
+

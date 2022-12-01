@@ -32,6 +32,24 @@ ON employees.id = assignments.employeeId
 WHERE employees.id = 15;
 
 --The number of different keepers who have been assigned to work in a given enclosure
-
+SELECT COUNT(DISTINCT employees.name) FROM employees
+INNER JOIN assignments
+ON employees.id = assignments.employeeId
+INNER JOIN enclosures
+ON enclosures.id = assignments.enclosureId
+WHERE enclosureId = 1;
 
 --The names of the other animals sharing an enclosure with a given animal (eg. find the names of all the animals sharing the big cat field with Tony)
+--(finding Tony's enclosure ID)
+SELECT enclosures.id FROM enclosures
+INNER JOIN animals
+ON animals.enclosureid = enclosures.id
+WHERE animals.name = 'Tony';
+
+SELECT DISTINCT(animals.name) FROM animals
+INNER JOIN enclosures
+ON animals.enclosureId = enclosures.id
+INNER JOIN assignments
+ON enclosures.id = assignments.enclosureId
+WHERE enclosures.id = 1
+AND animals.name != 'Tony'; 

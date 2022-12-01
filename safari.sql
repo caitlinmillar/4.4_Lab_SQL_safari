@@ -38,8 +38,13 @@ INSERT INTO employees (name, employeeNumber) VALUES ('Alex Smith II', 9128);
 INSERT INTO employees (name, employeeNumber) VALUES ('Bav Bav Snake King', 2738);
 INSERT INTO employees (name, employeeNumber) VALUES ('Blue Millar', 3546);
 INSERT INTO employees (name, employeeNumber) VALUES ('Steve Irwin', 5623);
-
-
+INSERT INTO employees (name, employeeNumber) VALUES ('Charles Dickens', 2464);
+INSERT INTO employees (name, employeeNumber) VALUES ('Noahs Ark', 6753);
+INSERT INTO employees (name, employeeNumber) VALUES ('Steadtler W H Smith', 2411);
+INSERT INTO employees (name, employeeNumber) VALUES ('Pilot V5', 1112);
+INSERT INTO employees (name, employeeNumber) VALUES ('Sharpie Gel', 2414);
+INSERT INTO employees (name, employeeNumber) VALUES ('Rene Descartes', 0001);
+INSERT INTO employees (name, employeeNumber) VALUES ('Socrates', 0021);
 
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('big cat field', 20, FALSE);
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('elephant hang out spot', 100, TRUE);
@@ -47,3 +52,62 @@ INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('monkey ju
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('penguins ice rink', 4, FALSE);
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('giraffe living room', 13, FALSE);
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('snake pit', 89, FALSE);
+INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('fly cage', 2, TRUE);
+
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Tony', 'Tiger', 59, 1);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Cerulean Diamond', 'Cat', 110, 1);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Elmer', 'Elephant', 241, 2);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('George', 'Monkey', 10, 3);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Piplup', 'Penguin', 2, 4);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Mumble', 'Penguin', 3, 4);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Melman', 'Giraffe', 32, 5);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Nagini', 'Snake', 7, 6);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Fred', 'Fly', 91, 7);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Filip', 'Fly', 83, 7);
+
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (1, 1, 'Monday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (1, 2, 'Tuesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (1, 3, 'Wednesday'); 
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (1, 4, 'Thursday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (1, 5, 'Friday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (1, 6, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (1, 7, 'Sunday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (2, 1, 'Monday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (2, 2, 'Tuesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (2, 3, 'Wednesday'); 
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (2, 4, 'Thursday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (2, 5, 'Friday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (2, 6, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (2, 7, 'Sunday');
+
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (3, 2, 'Monday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (3, 3, 'Tuesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (3, 4, 'Wednesday'); 
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (3, 5, 'Thursday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (3, 6, 'Friday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (3, 7, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (3, 1, 'Sunday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (4, 2, 'Monday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (4, 3, 'Tuesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (4, 4, 'Wednesday'); 
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (4, 5, 'Thursday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (4, 6, 'Friday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (4, 7, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (4, 1, 'Sunday');
+
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (5, 3, 'Monday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (5, 4, 'Tuesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (5, 5, 'Wednesday'); 
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (5, 6, 'Thursday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (5, 7, 'Friday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (5, 1, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (5, 2, 'Sunday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (6, 3, 'Monday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (6, 4, 'Tuesday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (6, 5, 'Wednesday'); 
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (6, 6, 'Thursday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (6, 7, 'Friday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (6, 1, 'Saturday');
+INSERT INTO assignments (employeeId, enclosureId, day) VALUES (6, 2, 'Sunday');
+
+

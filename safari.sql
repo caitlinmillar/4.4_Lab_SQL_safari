@@ -55,13 +55,23 @@ INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('snake pit
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('fly cage', 2, TRUE);
 
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Tony', 'Tiger', 59, 1);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Toby', 'Lion', 44, 1);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Tina Turner', 'Tiger', 33, 1);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Cerulean Diamond', 'Cat', 110, 1);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Elmer', 'Elephant', 241, 2);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Nelly', 'Elephant', 431, 2);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Dumbo', 'Elephant', 34, 2);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('George', 'Monkey', 10, 3);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s brother', 'Monkey', 10, 3);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s mother', 'Monkey', 10, 3);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s father', 'Monkey', 10, 3);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s sister', 'Monkey', 10, 3);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Piplup', 'Penguin', 2, 4);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Mumble', 'Penguin', 3, 4);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Melman', 'Giraffe', 32, 5);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Mel', 'Giraffe', 32, 5);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Nagini', 'Snake', 7, 6);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('Sssssss', 'Snake', 7, 6);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Fred', 'Fly', 91, 7);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Filip', 'Fly', 83, 7);
 

@@ -63,8 +63,8 @@ INSERT INTO animals (name, type, age, enclosureId) VALUES ('Nelly', 'Elephant', 
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Dumbo', 'Elephant', 34, 2);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('George', 'Monkey', 10, 3);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s brother', 'Monkey', 10, 3);
-INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s mother', 'Monkey', 10, 3);
-INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s father', 'Monkey', 10, 3);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s mother', 'Monkey', 330, 3);
+INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s father', 'Monkey', 431, 3);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('George''s sister', 'Monkey', 10, 3);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Piplup', 'Penguin', 2, 4);
 INSERT INTO animals (name, type, age, enclosureId) VALUES ('Mumble', 'Penguin', 3, 4);
